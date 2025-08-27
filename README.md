@@ -35,7 +35,7 @@ The process followed in this case study:
 - **Metrics & Dimensions** for KPIs and performance tracking  
 
 ### 2. Variables
-🔹 Pre-Defined Variables  
+🔹 **Pre-Defined Variables**  
 Built-in variables that capture standard data points like page name, campaigns, server, purchase ID, products, location, etc.  
 
 🔹 **Success / Standard Events**  
