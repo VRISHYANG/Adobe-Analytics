@@ -35,27 +35,27 @@ The process followed in this case study:
 - **Metrics & Dimensions** for KPIs and performance tracking  
 
 ### 2. Variables
-### 🔹 Pre-Defined Variables  
+🔹 Pre-Defined Variables  
 Built-in variables that capture standard data points like page name, campaigns, server, purchase ID, products, location, etc.  
 
-### 🔹 Success / Standard Events  
+🔹 **Success / Standard Events**  
 Predefined events to measure business outcomes (e.g., prodView, scAdd, scCheckout, purchase).  
 
-### 🔹 eVars (Conversion Variables)  
+🔹 **eVars (Conversion Variables)**  
 Persistent variables used for attribution; values persist across hits until expiry (e.g., campaign ID, user type).  
 
-### 🔹 Props (Traffic Variables)  
+🔹 **Props (Traffic Variables)**  
 Hit-level variables used for pathing and correlations; values apply only to the current page view.  
 
-### 🔹 Events (Custom Success Metrics)  
+🔹 **Events (Custom Success Metrics)**  
 Track user interactions such as purchases, downloads, or clicks; can be counter, numeric, or currency type.  
 
-### 🔹 Variable Scopes  
+🔹 **Variable Scopes**  
 - **Hit Scope** → Current server call  
 - **Visit Scope** → Entire session  
 - **Visitor Scope** → Across multiple visits until expiry  
 
-### 🔹 Other Key Notes  
+🔹 **Other Key Notes**  
 - **Allocation & Expiration**: Define how eVars attribute credit.  
 - **Merchandising eVars**: Tie product-level attribution to `s.products`.  
 - **List Variables**: Store multiple values in a single variable.  
